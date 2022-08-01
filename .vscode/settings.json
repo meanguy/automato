@@ -1,0 +1,18 @@
+{
+    "editor.inlayHints.enabled": "on",
+
+    "go.lintTool": "golangci-lint",
+    "go.lintFlags": [
+        "--fast"
+    ],
+    "go.formatTool": "gofumpt",
+    "go.formatFlags": [
+        "-e"
+    ],
+    "go.inlayHints.constantValues": true,
+    
+    "gopls": {
+        "formatting.gofumpt": true,
+        "formatting.local": "github.com/meanguy/automato"
+    }
+}
